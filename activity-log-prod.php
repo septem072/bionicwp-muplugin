@@ -38,7 +38,7 @@ function initActivityLog(): void
 
 function wpdocs_remove_activity_log()
 {
-    remove_menu_page('activity_log_page');
+    remove_menu_page('activity_log_page', 999);
 }
 function getActivityLog(WP_REST_Request $request)
 {
